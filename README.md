@@ -110,7 +110,7 @@ def mc_control(env, gamma = 1.0,
   V = np.max(Q, axis = 1)
   pi = lambda s: {s:a for s, a in enumerate(np.argmax(Q, axis = 1))}[s]
   return Q, V, pi
-```+
+```
 
 ## OUTPUT:
 ![](2.PNG)
